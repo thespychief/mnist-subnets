@@ -1,8 +1,8 @@
 mnist-subnets
 ========
 
-The accompaniment repo for the medium article 'Exploring Efficient Neural
-Network Architecture Using Subnets'
+The accompaniment repo for the medium article [Exploring Efficient Neural
+Network Architecture Using Subnets](https://thespychief.medium.com/exploring-efficient-neural-network-architecture-using-subnets-23659fb6f0bc).
 
 ## Installation
 
