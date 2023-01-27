@@ -1,0 +1,27 @@
+{
+  "name": "mnist-subnets",
+  "description": "The accompaniment repo for the medium article 'Exploring Efficient Neural Network Architecture Using Subnets'",
+  "version": "1.0.0",
+  "author": "Chandler Freeman (https://github.com/thespychief)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src/**/*.js",
+    "setup": "node ./setup",
+    "nn": "node ./src/mnist-nn.js",
+    "subnets": "node ./src/mnist-subnets.js"
+  },
+  "dependencies": {
+    "cli-progress": "3.10.0",
+    "lodash": "4.17.21",
+    "sharp": "0.30.4",
+    "stitch-ml": "0.1.0"
+  },
+  "devDependencies": {
+    "eslint": "7.23.0",
+    "eslint-config-airbnb-base": "14.2.1",
+    "eslint-plugin-import": "2.22.1"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  }
+}
